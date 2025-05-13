@@ -1,0 +1,18 @@
+.inputbrand{
+    position: relative;
+    left: 330px;
+    bottom: 650px;
+    font-size: 40PX;
+    color: #0c0c0c;
+    margin-top: 3%;
+    font-size: medium !important;
+ }
+ 
+ 
+ .gaps{
+  font-weight: bold;
+  display: flex;
+  gap: 10px;   
+  padding: 10px;
+ }
+ 

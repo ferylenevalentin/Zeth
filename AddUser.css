@@ -1,0 +1,110 @@
+/* General styles */
+* {
+  font-family: 'Poppins', sans-serif;
+}
+
+body {
+  font-family: 'Poppins', sans-serif;
+  background-color: white;
+}
+
+/* Container for the AddUser page */
+.add-user-container {
+  display: flex; /* Flexbox for sidebar and content */
+  min-height: 100vh; /* Full viewport height */
+  background-color: white;
+  font-family: 'Poppins', sans-serif;
+}
+
+/* Sidebar styling */
+.add-user-container > .MuiBox-root:first-child {
+  width: 250px; /* Fixed width for the sidebar */
+  background-color: #f4f4f4;
+  border-right: 1px solid #ddd;
+}
+
+/* Content container next to the sidebar */
+.content-container {
+  flex-grow: 1; /* Take the remaining space */
+  padding: 30px;
+  margin-left: 30px;
+  overflow-y: auto; /* Allow scrolling if content overflows */
+  font-family: 'Poppins', sans-serif;
+}
+
+/* Title styling */
+.add-user-title {
+  font-size: 40px;
+  font-weight: bold;
+  color: #0c0c0c;
+  margin-bottom: 20px;
+  font-family: 'Poppins', sans-serif;
+}
+
+/* Grid layout for user cards */
+.user-grid {
+  display: flex;
+  flex-wrap: wrap; /* Allow wrapping of cards */
+  gap: 20px; /* Space between cards */
+  justify-content: center; /* Center the cards */
+  width: 100%;
+  max-width: 1500px;
+}
+
+/* Card styling */
+.user-card {
+  width: 300px; /* Fixed width for cards */
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  background-color: white;
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+
+}
+
+.user-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+/* Card content styling */
+.user-card-content {
+  padding: 16px;
+  font-family: 'Poppins', sans-serif;
+}
+
+.user-card-content h6 {
+  font-size: 1.2rem;
+  font-weight: bold;
+  margin-bottom: 8px;
+  color: #555;
+  font-family: 'Poppins', sans-serif;
+}
+
+.user-card-content p {
+  font-size: 1rem;
+  margin: 4px 0;
+  color: #666;
+  font-family: 'Poppins', sans-serif;
+}
+
+/* Loading spinner container */
+.loading-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 50vh;
+}
+
+/* No users message */
+.no-users-message {
+  font-size: 1.2rem;
+  color: #888;
+  text-align: center;
+  margin-top: 20px;
+  font-family: 'Poppins', sans-serif;
+}
+.h2{
+  font-family: 'Poppins', sans-serif;
+
+}
